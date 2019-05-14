@@ -378,7 +378,7 @@
   .grid > .column.row > [class*="three wide"].column,
   .grid > [class*="three wide"].column,
   .column.grid > [class*="three wide"].column {
-    width: 18.75% !important;
+    width: 25% ;
   }
   .grid > .row > [class*="four wide"].column,
   .grid > .column.row > [class*="four wide"].column,
@@ -438,7 +438,7 @@
   .grid > .column.row > [class*="thirteen wide"].column,
   .grid > [class*="thirteen wide"].column,
   .column.grid > [class*="thirteen wide"].column {
-    width: 81.25% !important;
+    width: 75%;
   }
   .grid > .row > [class*="fourteen wide"].column,
   .grid > .column.row > [class*="fourteen wide"].column,
@@ -500,7 +500,7 @@
   
   /* Avatar */
   .avatar-wrapper {
-    padding: 0 1em;
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -510,10 +510,14 @@
     max-width: 15rem;
     display: block;
     flex: 1 0 auto;
+    width: 100%;
   }
   @media only screen and (max-width: 1199px) {
     .avatar-wrapper {
       padding: 0;
+    }
+     .page .grid .row .three{
+      width: 100% ;
     }
   }
   
